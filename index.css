@@ -1,0 +1,90 @@
+*{
+    font-family: 'Russo One', sans-serif;
+}
+
+body{
+    background-color: #1A1A1A;
+    width: 500px;
+    margin: 4% auto;
+}
+
+.calculator {
+    background-color: #222222;
+    height: 380px;
+    width: 450px;
+    border: 2px solid #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 400px;
+    color: #1A1A1A;
+    border-radius: 10px;
+    height: 60px;
+    padding-right: 15px;
+    padding-top: 10px;
+    text-align: right;
+    margin-right: 6px;
+    font-size: 2.5rem;
+    overflow-x: auto;
+}
+
+.buttons {}
+
+.operators {}
+
+.operators div {
+    background-color: #9575DE;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 4px 10px 0;
+    cursor: pointer;
+  }
+
+  .operators div:active {
+    font-weight: bold;
+  }
+
+  .leftPanel {
+    display: inline-block;
+  }
+
+  .numbers div {
+    background-color: #6554AF;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 4px 10px 0;
+    cursor: pointer;
+  }
+
+  .numbers div:active {
+    font-weight: bold;
+  }
+
+  div.equal {
+    background-color: #FF60F8;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 10px;
+    width: 17%;
+    text-align: center;
+    padding: 99px 10px;
+    margin: 10px 6px 10px 0;
+    vertical-align: top;
+    cursor: pointer;
+  }
+
+  div.equal:active {
+    font-weight: bold;
+  }
